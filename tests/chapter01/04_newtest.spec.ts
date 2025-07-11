@@ -8,6 +8,6 @@ test('playwright tutorial test', async({page}) => {
     await page.getByRole('combobox', { name: 'Search' }).fill('amazon.com');
     await page.getByRole('combobox', { name: 'Search' }).press('Enter');
 
-    await page.waitForTimeout(3000);
+    await page.waitForTimeout(5000);
 
 })
